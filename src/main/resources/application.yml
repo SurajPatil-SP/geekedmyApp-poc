@@ -1,0 +1,26 @@
+server:
+  port: 8383
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/geekedmy
+    username: root
+    password: Sharvil@25
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+#spring:
+#   data:
+#     mongodb:
+#       host: localhost
+#       port: 27017
+#       database: local
+
+      
